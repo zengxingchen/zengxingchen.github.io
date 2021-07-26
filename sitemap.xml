@@ -2,9 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://zengxingchen.github.io/categories/</loc>
-  </url><url>
     <loc>http://zengxingchen.github.io/</loc>
+    <lastmod>2021-07-26T18:05:07+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/posts/</loc>
+    <lastmod>2021-07-26T18:05:07+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/posts/test/</loc>
+    <lastmod>2021-07-26T18:05:07+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/post/myfirst/</loc>
+    <lastmod>2021-07-26T11:02:25+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/post/</loc>
+    <lastmod>2021-07-26T11:02:25+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/links/</loc>
+    <lastmod>2021-07-26T11:02:04+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/categories/</loc>
   </url><url>
     <loc>http://zengxingchen.github.io/tags/</loc>
   </url>
