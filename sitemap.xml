@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</loc>
+    <lastmod>2021-07-27T22:50:46+08:00</lastmod>
+  </url><url>
     <loc>http://zengxingchen.github.io/</loc>
-    <lastmod>2021-07-26T18:05:07+08:00</lastmod>
+    <lastmod>2021-07-27T22:50:46+08:00</lastmod>
   </url><url>
     <loc>http://zengxingchen.github.io/posts/</loc>
-    <lastmod>2021-07-26T18:05:07+08:00</lastmod>
+    <lastmod>2021-07-27T22:50:46+08:00</lastmod>
+  </url><url>
+    <loc>http://zengxingchen.github.io/posts/7_27/</loc>
+    <lastmod>2021-07-27T22:22:34+08:00</lastmod>
   </url><url>
     <loc>http://zengxingchen.github.io/posts/test/</loc>
     <lastmod>2021-07-26T18:05:07+08:00</lastmod>

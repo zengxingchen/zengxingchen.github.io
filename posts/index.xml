@@ -6,7 +6,30 @@
     <description>Recent content in Posts on LewyZeng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jul 2021 18:05:07 +0800</lastBuildDate><atom:link href="http://zengxingchen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jul 2021 22:50:46 +0800</lastBuildDate><atom:link href="http://zengxingchen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide for buliding your personal website</title>
+      <link>http://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</link>
+      <pubDate>Tue, 27 Jul 2021 22:50:46 +0800</pubDate>
+      
+      <guid>http://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</guid>
+      <description>Actually, you can juest follow the official document of Hugo to build your website.
+If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the key words of troubles you met in the official document of Hugo.
+I believe that the above can help you finish the main procedure, while the following are some of my experiences.
+How to use LaTex in html?</description>
+    </item>
+    
+    <item>
+      <title>7_27</title>
+      <link>http://zengxingchen.github.io/posts/7_27/</link>
+      <pubDate>Tue, 27 Jul 2021 22:22:34 +0800</pubDate>
+      
+      <guid>http://zengxingchen.github.io/posts/7_27/</guid>
+      <description>随机森林（Random Forest） 决策树
+如需制作决策树，所有数据都必须是数字。
+   Age Experience Rank Nationality Go     36 10 9 UK NO   42 12 4 USA NO   23 4 6 N NO   52 4 4 USA NO   43 21 8 USA YES   44 14 5 UK NO   66 3 7 N YES   35 14 9 UK YES   52 13 7 N YES   35 5 9 N YES   24 3 5 USA NO   18 3 7 UK YES   45 9 9 UK YES    我们必须将非数字列 “Nationality” 和 “Go” 转换为数值。</description>
+    </item>
+    
     <item>
       <title>Test</title>
       <link>http://zengxingchen.github.io/posts/test/</link>
@@ -19,7 +42,8 @@
 特征的充分组合的角度来讲解了激活函数的作用。但这种解释在reLU函数等不能泰勒展开的函数上似乎是行不通的，不过我依然认为这个角度非常有趣。
 通俗理解激活函数作用的另一种解释 - 忆臻的文章 - 知乎 https://zhuanlan.zhihu.com/p/27661298
 CNN Reference: 李宏毅《机器学习》
-Three property for CNN theory base  Some patterns are much smaller than the whole image The same patterns appear in different regions Subsampling（二次抽样） the pixels will not change the object  The whole CNN structure ![截屏2021-04-29 下午7.36.52](/Users/zengxingchen/Library/Application Support/typora-user-images/截屏2021-04-29 下午7.36.52.png)
+Three property for CNN theory base  Some patterns are much smaller than the whole image The same patterns appear in different regions Subsampling（二次抽样） the pixels will not change the object  
+The whole CNN structure 
 我们基于之前提到的三个对影像处理的观察，设计了CNN这样的架构。
  property1: 要侦测一个pattern，你不需要看整张image，只要看image的一个小部分； property2: 同样的pattern会出现在一张图片的不同区域； Property3: 是我们可以对整张image做subsampling。  对应CNN的架构：</description>
     </item>
