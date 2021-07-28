@@ -72,8 +72,8 @@ How to use LaTex in html?"/>
   "keywords": [
     
   ],
-  "articleBody": "You can just follow the official document of Hugo to build your website.\nIf you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.\nI believe that the above can help you finish the main procedure, while the following are some of my experiences.\nHow to use LaTex in html? You can follow the tutorials:\n Hugo 静态博客中迄今为止最佳数学公式支持-利用 MathJax \u0026 MMark MathJax Support  The reason why MMark is recommended is that you can start writing mathematical formulas without more configuration. The mathematical formulas are all surrounded by two dollar signs $, like this $$ f(x) = sin(x) $$​​, as shown The effect is $$f(x) = sin(x) $$​​. In-line formulas and inter-line formulas are the same. The difference is that a blank line is added before and after the inter-line formulas so that Mmark can automatically determine whether you need an in-line formula or an inter-line formula. Examples of formulas between lines:\n$$ f(x) = sin(x) $$ The display effect is $$ f(x) = sin(x) $$\nHow to synchronize the image path between Typora and Hugo The key point is that the root path of the images you use should be /static.\nYou can follow the tutorial:\n  在 Typora 和 Hugo 中正确显示图片\nIf following this way, the embarrassing thing is that all the articles you write with typora will be stored in this place, whether you write a blog or not.\n  **Use Image host **\nThere is also a second way to store your pictures, with the help of image host, refer to this blog. Also, there are a lot of image hosts to choose from, like gitee, GitHub, PicGO, so you can choose anyone you like.\n  ",
-  "wordCount" : "297",
+  "articleBody": "You can just follow the official document of Hugo to build your website.\nIf you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.\nI believe that the above can help you finish the main procedure, while the following are some of my experiences.\nHow to use LaTex in html? You can follow the tutorials:\n Hugo 静态博客中迄今为止最佳数学公式支持-利用 MathJax \u0026 MMark MathJax Support  The reason why MMark is recommended is that you can start writing mathematical formulas without more configuration. The mathematical formulas are all surrounded by two dollar signs $, like this $$ f(x) = sin(x) $$​​, as shown The effect is \\(f(x) = sin(x) \\)​​. In-line formulas and inter-line formulas are the same. The difference is that a blank line is added before and after the inter-line formulas so that Mmark can automatically determine whether you need an in-line formula or an inter-line formula. Examples of formulas between lines:\n$$ f(x) = sin(x) $$ The display effect is \\( f(x) = sin(x) \\)\nHow to synchronize the image path between Typora and Hugo The key point is that the root path of the images you use should be /static.\nYou can follow the tutorial:\n 在 Typora 和 Hugo 中正确显示图片  If following this way, the embarrassing thing is that all the articles you write with typora will be stored in this place, whether you write a blog or not.\n\nimage test\n**Use Image host **  There is also a second way to store your pictures, with the help of image host, refer to this blog. Also, there are a lot of image hosts to choose from, like gitee, GitHub, PicGO, so you can choose anyone you like.\n",
+  "wordCount" : "299",
   "inLanguage": "en",
   "datePublished": "2021-07-27T22:50:46+08:00",
   "dateModified": "2021-07-27T22:50:46+08:00",
@@ -185,38 +185,50 @@ How to use LaTex in html?"/>
 </div>
   </header> 
   <div class="post-content"><p>You can just follow <a href="https://gohugo.io/getting-started/quick-start/">the official document of Hugo</a> to build your website.</p>
+
 <p>If you are going to use GitHub Pages to deploy your website, you can just refer to this <a href="https://www.cnblogs.com/RyanXing/p/Hugo.html">blog</a>, and search the keywords of troubles you met in <a href="https://gohugo.io/getting-started/quick-start/">the official document of Hugo</a>.</p>
+
 <p>I believe that the above can help you finish the main procedure, while the following are some of my experiences.</p>
+
 <h2 id="how-to-use-latex-in-html">How to use LaTex in html?<a hidden class="anchor" aria-hidden="true" href="#how-to-use-latex-in-html">#</a></h2>
+
 <p>You can follow the tutorials:</p>
+
 <ol>
 <li><a href="https://butui.me/post/yet-best-math-formula-support-for-hugo-with-mathjax/">Hugo 静态博客中迄今为止最佳数学公式支持-利用 MathJax &amp; MMark</a></li>
 <li><a href="https://www.gohugo.org/doc/tutorials/mathjax/">MathJax Support</a></li>
 </ol>
-<p>The reason why MMark is recommended is that you can start writing mathematical formulas without more configuration. The mathematical formulas are all surrounded by two dollar signs <code>$</code>, like this <code>$$ f(x) = sin(x) $$</code>​​, as shown The effect is  $$f(x) = sin(x) $$​​. In-line formulas and inter-line formulas are the same. The difference is that a blank line is added before and after the inter-line formulas so that Mmark can automatically determine whether you need an in-line formula or an inter-line formula. Examples of formulas between lines:</p>
+
+<p>The reason why MMark is recommended is that you can start writing mathematical formulas without more configuration. The mathematical formulas are all surrounded by two dollar signs <code>$</code>, like this <code>$$ f(x) = sin(x) $$</code>​​, as shown The effect is  <span  class="math">\(f(x) = sin(x) \)</span>​​. In-line formulas and inter-line formulas are the same. The difference is that a blank line is added before and after the inter-line formulas so that Mmark can automatically determine whether you need an in-line formula or an inter-line formula. Examples of formulas between lines:</p>
 <pre><code>$$
 f(x) = sin(x)
-$$
-</code></pre><p>The display effect is
-$$
+$$</code></pre>
+<p>The display effect is
+<span  class="math">\(
 f(x) = sin(x)
-$$</p>
+\)</span></p>
+
 <h2 id="how-to-synchronize-the-image-path-between-typora-and-hugo">How to synchronize the image path between Typora and Hugo<a hidden class="anchor" aria-hidden="true" href="#how-to-synchronize-the-image-path-between-typora-and-hugo">#</a></h2>
+
 <p>The key point is that the root path of the images you use should be <code>/static</code>.</p>
+
 <p>You can follow the tutorial:</p>
+
 <ol>
-<li>
-<p><a href="https://www.jtr109.com/posts/manage-images-in-typora-and-hugo/">在 Typora 和 Hugo 中正确显示图片</a></p>
-<p>If following this way, the embarrassing thing is that all the articles you write with typora will be stored in this place, whether you write a blog or not.</p>
-<p><img loading="lazy" src="https://cdn.acwing.com/media/user/profile/photo/56425_lg_bf2f3a84e5.JPG" alt="56425_lg_bf2f3a84e5"  />
-</p>
-<!-- raw HTML omitted -->
-</li>
-<li>
-<p>**Use Image host **</p>
-<p>There is also a second way to store your pictures, with <strong>the help of image host</strong>, refer to <a href="https://www.jianshu.com/p/a3371dc5802e">this blog</a>. Also, there are a lot of image hosts to choose from, like gitee, GitHub, PicGO, so you can choose anyone you like.</p>
-</li>
+<li><a href="https://www.jtr109.com/posts/manage-images-in-typora-and-hugo/">在 Typora 和 Hugo 中正确显示图片</a></li>
 </ol>
+
+<p>If following this way, the embarrassing thing is that all the articles you write with typora will be stored in this place, whether you write a blog or not.</p>
+
+<p><figure><img src="https://cdn.acwing.com/media/user/profile/photo/56425_lg_bf2f3a84e5.JPG" alt="56425_lg_bf2f3a84e5"></figure></p>
+
+<p><center style="font-size:14px;color:#C0C0C0;text-decoration:underline">image test</center></p>
+
+<ol start="2">
+<li>**Use Image host **</li>
+</ol>
+
+<p>There is also a second way to store your pictures, with <strong>the help of image host</strong>, refer to <a href="https://www.jianshu.com/p/a3371dc5802e">this blog</a>. Also, there are a lot of image hosts to choose from, like gitee, GitHub, PicGO, so you can choose anyone you like.</p>
 
 
   </div>
