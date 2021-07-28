@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>LewyZeng</title>
-    <link>http://zengxingchen.github.io/</link>
-    <description>Recent content on LewyZeng</description>
+    <title>Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/</link>
+    <description>Recent content on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jul 2021 22:50:46 +0800</lastBuildDate><atom:link href="http://zengxingchen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jul 2021 23:05:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Note 00</title>
+      <link>https://zengxingchen.github.io/posts/ml00/</link>
+      <pubDate>Wed, 28 Jul 2021 23:05:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/ml00/</guid>
+      <description>I&amp;rsquo;m going to share my ML Notes here.
+print(&amp;#39;test&amp;#39;) you can copy the code block by click the button `copy` </description>
+    </item>
+    
     <item>
       <title>Guide for buliding your personal website</title>
-      <link>http://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</link>
+      <link>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</link>
       <pubDate>Tue, 27 Jul 2021 22:50:46 +0800</pubDate>
       
-      <guid>http://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</guid>
+      <guid>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</guid>
       <description>You can just follow the official document of Hugo to build your website.
 If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.
 I believe that the above can help you finish the main procedure, while the following are some of my experiences.
@@ -21,12 +30,13 @@ How to use LaTex in html?</description>
     
     <item>
       <title>Links</title>
-      <link>http://zengxingchen.github.io/links/</link>
+      <link>https://zengxingchen.github.io/links/</link>
       <pubDate>Mon, 26 Jul 2021 11:02:04 +0800</pubDate>
       
-      <guid>http://zengxingchen.github.io/links/</guid>
+      <guid>https://zengxingchen.github.io/links/</guid>
       <description></description>
     </item>
+    
     
   </channel>
 </rss>
