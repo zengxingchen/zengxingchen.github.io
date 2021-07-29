@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning Note on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/categories/machine-learning-note/</link>
+    <description>Recent content in Machine Learning Note on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Jul 2021 23:05:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/machine-learning-note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Note 00</title>
+      <link>https://zengxingchen.github.io/posts/ml00/</link>
+      <pubDate>Wed, 28 Jul 2021 23:05:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/ml00/</guid>
+      <description>I&amp;rsquo;m going to share my ML Notes here.
+print(&amp;#39;test&amp;#39;) you can copy the code block by click the button `copy` </description>
+    </item>
+    
+  </channel>
+</rss>

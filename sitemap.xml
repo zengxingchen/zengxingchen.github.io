@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zengxingchen.github.io/categories/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/developer-tools/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/git/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
     <loc>https://zengxingchen.github.io/posts/git_tutorial/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
@@ -11,8 +20,23 @@
     <loc>https://zengxingchen.github.io/posts/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
+    <loc>https://zengxingchen.github.io/tags/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/machine-learning/</loc>
+    <lastmod>2021-07-28T23:05:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/machine-learning-note/</loc>
+    <lastmod>2021-07-28T23:05:30+08:00</lastmod>
+  </url><url>
     <loc>https://zengxingchen.github.io/posts/ml00/</loc>
     <lastmod>2021-07-28T23:05:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/blog/</loc>
+    <lastmod>2021-07-27T22:50:46+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/front-end-development/</loc>
+    <lastmod>2021-07-27T22:50:46+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</loc>
     <lastmod>2021-07-27T22:50:46+08:00</lastmod>
@@ -20,10 +44,6 @@
     <loc>https://zengxingchen.github.io/links/</loc>
     <lastmod>2021-07-26T11:02:04+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/categories/</loc>
-  </url><url>
     <loc>https://zengxingchen.github.io/search/</loc>
-  </url><url>
-    <loc>https://zengxingchen.github.io/tags/</loc>
   </url>
 </urlset>

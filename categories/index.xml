@@ -4,6 +4,34 @@
     <title>Categories on Lewy Zeng</title>
     <link>https://zengxingchen.github.io/categories/</link>
     <description>Recent content in Categories on Lewy Zeng</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Jul 2021 13:29:51 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developer Tools</title>
+      <link>https://zengxingchen.github.io/categories/developer-tools/</link>
+      <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/developer-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Note</title>
+      <link>https://zengxingchen.github.io/categories/machine-learning-note/</link>
+      <pubDate>Wed, 28 Jul 2021 23:05:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/machine-learning-note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Front-end Development</title>
+      <link>https://zengxingchen.github.io/categories/front-end-development/</link>
+      <pubDate>Tue, 27 Jul 2021 22:50:46 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/front-end-development/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
