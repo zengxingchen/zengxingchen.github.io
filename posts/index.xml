@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Jul 2021 13:29:51 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git_tutorial</title>
+      <title>Git tutorial(to be continued)</title>
       <link>https://zengxingchen.github.io/posts/git_tutorial/</link>
       <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/posts/git_tutorial/</guid>
-      <description>Intro  Follow this guide, you will learn the common usage of git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documents. Offical documentation of Git  Git Basics What is version Control? Your daily Tasks: create things save things edit things ** save the thing again **
-Git is a fast and modern implementation of version control</description>
+      <description>Intro  Follow this guide, you will learn the common usage of Git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documentation of Git.  Git Basics  Git is a fast and modern implementation of version control
+ Common commands git init directory_name # create and turn the directory into a warehouse that git can manage git add &amp;lt;file&amp;gt;.</description>
     </item>
     
     <item>
