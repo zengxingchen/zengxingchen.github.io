@@ -4,18 +4,12 @@
 课件
 @整理 曾星辰
 前言 沈老师的课件代码多有纰漏，结构不太清晰。菜鸟教程中的这一部分相当精炼，我删去了沈老师没有教过的内容，稍作整理得出。
-课件勘误
-data两边应该是``，而非单引号
-理解export的用法即可
-运行 Shell 脚本有两种方法：
-#!/bin/bash echo "Hello World !" 1、作为可执行程序
+课件勘误 data两边应该是 ```，而非单引号
+理解export的用法即可 理解 export 的用法即可 运行 Shell 脚本的两种方法 #!/bin/bash echo "Hello World !" 1、作为可执行程序
 将上面的代码保存为 test.sh，并 cd 到相应目录：
 chmod +x ./test.sh #使脚本具有执行权限 ./test.sh #执行脚本 注意，一定要写成 ./test.sh，而不是 test.sh，运行其它二进制的程序也一样，直接写 test.sh，linux 系统会去 PATH 里寻找有没有叫 test.sh 的，而只有 /bin, /sbin, /usr/bin，/usr/sbin 等在 PATH 里，你的当前目录通常不在 PATH 里，所以写成 test.sh 是会找不到命令的，要用 ./test.sh 告诉系统说，就在当前目录找。
 2、作为解释器参数
-这种运行方式是，直接运行解释器，其参数就是 shell 脚本的文件名，如：
-/bin/sh test.sh /bin/php test.php 这种方式运行的脚本，不需要在第一行指定解释器信息，写了也没用。
-Shell 变量 定义变量时，变量名不加美元符号（$），如：
-your_name="runoob.com" 注意，变量名和等号之间不能有空格，这可能和你熟悉的所有编程语言都不一样。...</p></section><footer class=entry-footer>July 30, 2021&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Shell tutorial" href=https://zengxingchen.github.io/posts/shell-tutorial/></a></article><article class=post-entry><header class=entry-header><h2>Git tutorial(to be continued)</h2></header><section class=entry-content><p>Intro Follow this guide, you will learn the common usage of Git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documentation of Git. Git Basics Git is a fast and modern implementation of version control
+这种运行方式是，直接运行解释器，其参数就是 shell 脚本的文件名，如：...</p></section><footer class=entry-footer>July 30, 2021&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Shell tutorial" href=https://zengxingchen.github.io/posts/shell-tutorial/></a></article><article class=post-entry><header class=entry-header><h2>Git tutorial(to be continued)</h2></header><section class=entry-content><p>Intro Follow this guide, you will learn the common usage of Git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documentation of Git. Git Basics Git is a fast and modern implementation of version control
 Common commands git init directory_name # create and turn the directory into a warehouse that git can manage git add &lt;file>....</p></section><footer class=entry-footer>July 29, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Git tutorial(to be continued)" href=https://zengxingchen.github.io/posts/git_tutorial/></a></article><article class=post-entry><header class=entry-header><h2>Machine Learning Note 00</h2></header><section class=entry-content><p>I’m going to share my ML Notes here.
 print('test') you can copy the code block by click the button `copy`</p></section><footer class=entry-footer>July 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Machine Learning Note 00" href=https://zengxingchen.github.io/posts/ml00/></a></article><article class=post-entry><header class=entry-header><h2>Guide for buliding your personal website</h2></header><section class=entry-content><p>You can just follow the official document of Hugo to build your website.
 If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.

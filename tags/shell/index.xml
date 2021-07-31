@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Shell on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/shell/</link>
+    <description>Recent content in Shell on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Jul 2021 18:42:20 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shell tutorial</title>
+      <link>https://zengxingchen.github.io/posts/shell-tutorial/</link>
+      <pubDate>Fri, 30 Jul 2021 18:42:20 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/shell-tutorial/</guid>
+      <description>Reference:
+ 菜鸟教程 www.runoob.com
+ 课件
+  @整理 曾星辰
+前言 沈老师的课件代码多有纰漏，结构不太清晰。菜鸟教程中的这一部分相当精炼，我删去了沈老师没有教过的内容，稍作整理得出。
+课件勘误  data两边应该是 ```，而非单引号 
+ 理解export的用法即可  理解 export 的用法即可     运行 Shell 脚本的两种方法 #!/bin/bash echo &amp;#34;Hello World !&amp;#34; 1、作为可执行程序
+将上面的代码保存为 test.sh，并 cd 到相应目录：
+chmod +x ./test.sh #使脚本具有执行权限 ./test.sh #执行脚本 注意，一定要写成 ./test.sh，而不是 test.sh，运行其它二进制的程序也一样，直接写 test.sh，linux 系统会去 PATH 里寻找有没有叫 test.sh 的，而只有 /bin, /sbin, /usr/bin，/usr/sbin 等在 PATH 里，你的当前目录通常不在 PATH 里，所以写成 test.sh 是会找不到命令的，要用 ./test.sh 告诉系统说，就在当前目录找。
+2、作为解释器参数
+这种运行方式是，直接运行解释器，其参数就是 shell 脚本的文件名，如：</description>
+    </item>
+    
+  </channel>
+</rss>
