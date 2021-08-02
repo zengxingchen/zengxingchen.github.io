@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Unit test on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/unit-test/</link>
+    <description>Recent content in Unit test on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 31 Jul 2021 22:29:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/unit-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Note 01: Unit test and JUnit</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-01-unit-test-and-junit/</link>
+      <pubDate>Sat, 31 Jul 2021 22:29:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-01-unit-test-and-junit/</guid>
+      <description>软件工程的相关概念
+JUnit 是 Java一个单元测试的工具
+单元测试框架比main函数测试要高效很多
+软件测试的基本定义和作用 JUnit：一个Java语言的单元测试框架 JUnit 和 Maventest 的区别
+Maventest会把所有JUnit一同运行
+高级文本处理
+尽量不用字符转换 会有错误
+java 的国际化编程：Internationalization</description>
+    </item>
+    
+  </channel>
+</rss>

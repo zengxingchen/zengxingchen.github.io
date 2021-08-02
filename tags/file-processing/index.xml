@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>File processing on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/file-processing/</link>
+    <description>Recent content in File processing on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 01 Aug 2021 18:29:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/file-processing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Note 01: Unit test and JUnit</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-02-advanced-file-processing/</link>
+      <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-02-advanced-file-processing/</guid>
+      <description>https://www.w3school.com.cn/x.asp
+XML(eXtensible Markup Language) XML: 数据+含义
+标签可自行定义，具有自我描述性
+常规语法
+– 任何的起始标签都必须有一个结束标签。
+– 简化写法，例如，可以写为。
+– 大小写敏感，如和不一样。
+– 每个文件都要有一个根元素。
+– 标签必须按合适的顺序进行嵌套，不可错位。
+– 所有的特性都必须有值，且在值的周围加上引号。
+– 需要转义字符，如 &amp;lt; 需要用 &amp;amp;lt代替。
+– 注释：DTD(Document Type Definition) &amp;lt;?xml version=&amp;quot;1.0&amp;quot;?&amp;gt; &amp;lt;!DOCTYPE note [ &amp;lt;!ELEMENT note (to,from,heading,body)&amp;gt; &amp;lt;!ELEMENT to (#PCDATA)&amp;gt; &amp;lt;!ELEMENT from (#PCDATA)&amp;gt; &amp;lt;!ELEMENT heading (#PCDATA)&amp;gt; &amp;lt;!ELEMENT body (#PCDATA)&amp;gt; ]&amp;gt; &amp;lt;note&amp;gt; &amp;lt;to&amp;gt;George&amp;lt;/to&amp;gt; &amp;lt;from&amp;gt;John&amp;lt;/from&amp;gt; &amp;lt;heading&amp;gt;Reminder&amp;lt;/heading&amp;gt; &amp;lt;body&amp;gt;Don&#39;t forget the meeting!&amp;lt;/body&amp;gt; &amp;lt;/note&amp;gt; 以上 DTD 解释如下：
+!DOCTYPE note (第二行)定义此文档是 note 类型的文档。
+!ELEMENT note (第三行)定义 note 元素有四个元素：to、from、heading,body</description>
+    </item>
+    
+  </channel>
+</rss>

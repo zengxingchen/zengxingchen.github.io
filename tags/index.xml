@@ -5,13 +5,40 @@
     <link>https://zengxingchen.github.io/tags/</link>
     <description>Recent content in Tags on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Jul 2021 22:12:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 18:29:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>File processing</title>
+      <link>https://zengxingchen.github.io/tags/file-processing/</link>
+      <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/file-processing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Java</title>
       <link>https://zengxingchen.github.io/tags/java/</link>
-      <pubDate>Sat, 31 Jul 2021 22:12:30 +0800</pubDate>
+      <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XML</title>
+      <link>https://zengxingchen.github.io/tags/xml/</link>
+      <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unit test</title>
+      <link>https://zengxingchen.github.io/tags/unit-test/</link>
+      <pubDate>Sat, 31 Jul 2021 22:29:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/unit-test/</guid>
       <description></description>
     </item>
     

@@ -8,10 +8,10 @@
     <lastBuildDate>Sat, 31 Jul 2021 22:12:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java Note 00: Maven intro</title>
-      <link>https://zengxingchen.github.io/posts/maven-tutotrial/</link>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-00-maven-intro/</link>
       <pubDate>Sat, 31 Jul 2021 22:12:30 +0800</pubDate>
       
-      <guid>https://zengxingchen.github.io/posts/maven-tutotrial/</guid>
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-00-maven-intro/</guid>
       <description>我主要参考的后端相关学习资料以中文为主，学习过程中遇到的难以转换为中文的专业词汇也相对较少，因为后端系列均以中文写作。
  碎碎念 这是暑假后端学习的开端，很难说清为什么要深入java的学习，兴趣使然？还是希望提升自己的工程能力吧。假期里我开始搭建博客，将一些已经学习过的知识重新整理，也愈发明白自己所欠缺的技能点。
 其实，我已经养成了许多开发的好习惯：阅读官方的英文文档，面向Google编程&amp;hellip;&amp;hellip;
