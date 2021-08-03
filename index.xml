@@ -127,41 +127,36 @@ How to use LaTex in html?</description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</link>
+      <title>Java Note 05: Syntax sugar1</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zengxingchen.github.io/posts/java-note/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zengxingchen.github.io/posts/java-note/untitled/</guid>
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/</guid>
       <description>Syntax sugar
  Syntactic sugar / Syntax sugar
  向后兼容
 本文主要介绍for-each循环, enum枚举, 不定项参数
-for-each循环：避免数组越界，提倡使用
+for-each for-each循环：避免数组越界，提倡使用
 for vs for-each
-for-each 从JDK5.0开始引入
-for-each 语法更简洁
-for-each 避免越界错误
-for 可以删除元素，for-each不可以删除/替换元素
-for-each遍历的时候，是不知道当前元素的具体位置索引
-for-each只能正向遍历，不能反向遍历
-for-each不能同时遍历2个集合
-for和for-each性能接近
-枚举：限定取值集合，减少实例对象，提倡使用
-不定项参数：注重方法重载的优先级，建议少用
-静态导入：有大量静态方法调用时使用，注意“*”不滥用
-import static
-导入一个类的静态方法和静态变量
-少使用* 符号
-自动拆箱和装箱(auto-boxing/auto-unboxing) 装箱和拆箱是编译器的工作，虚拟机没有自动装箱和拆箱的语句
+ for-each 从JDK5.0开始引入 for-each 语法更简洁 for-each 避免越界错误 for 可以删除元素，for-each不可以删除/替换元素 for-each遍历的时候，是不知道当前元素的具体位置索引 for-each只能正向遍历，不能反向遍历 for-each不能同时遍历2个集合 for和for-each性能接近  enum 枚举 枚举：限定取值集合，减少实例对象，提倡使用
+Java的enum类型
+所有的enum类型都是Enum的子类，也继承了相应方法
+  ordinal()返回枚举值所在的索引位置, 从0开始
+  compareTo()比较两个枚举值的索引位置大小
+  toString()返回枚举值的字符串表示
+  valueOf()将字符串初始化为枚举对象
+  values()返回所有的枚举值
+  不定项参数：注重方法重载的优先级，建议少用
+enum Fruit { Apple(10), Orange(8); private int price; Fruit(int price){ this.price = price; } public int getPrice() { return this.</description>
+    </item>
+    
+    <item>
+      <title>Java Note 06: Syntax sugar2</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-06-syntax-sugar2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-06-syntax-sugar2/</guid>
+      <description>自动拆箱和装箱(auto-boxing/auto-unboxing) 装箱和拆箱是编译器的工作，虚拟机没有自动装箱和拆箱的语句
 bimian
 不同类型不能比较
 多异常并列：不建议使用，针对每一类异常单独处理
@@ -179,6 +174,15 @@ c++有auto
 switch
 多分支选择语句 JDK12支持
 Project 与 Module的区别</description>
+    </item>
+    
+    <item>
+      <title>Java Note 07: Generic programming</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-07generic-progarmming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-07generic-progarmming/</guid>
+      <description></description>
     </item>
     
     

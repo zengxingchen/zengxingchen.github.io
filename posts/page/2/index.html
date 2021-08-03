@@ -3,27 +3,22 @@
 print('test') you can copy the code block by click the button `copy`</p></section><footer class=entry-footer>July 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Machine Learning Note 00" href=https://zengxingchen.github.io/posts/machine-learning-note/ml00/></a></article><article class=post-entry><header class=entry-header><h2>Guide for buliding your personal website</h2></header><section class=entry-content><p>You can just follow the official document of Hugo to build your website.
 If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.
 I believe that the above can help you finish the main procedure, while the following are some of my experiences.
-How to use LaTex in html?...</p></section><footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Guide for buliding your personal website" href=https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/></a></article><article class=post-entry><header class=entry-header><h2></h2></header><section class=entry-content><p></p></section><footer class=entry-footer>0 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to " href=https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/></a></article><article class=post-entry><header class=entry-header><h2></h2></header><section class=entry-content><p>Syntax sugar
+How to use LaTex in html?...</p></section><footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Guide for buliding your personal website" href=https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/></a></article><article class=post-entry><header class=entry-header><h2>Java Note 05: Syntax sugar1</h2></header><section class=entry-content><p>Syntax sugar
 Syntactic sugar / Syntax sugar
 向后兼容
 本文主要介绍for-each循环, enum枚举, 不定项参数
-for-each循环：避免数组越界，提倡使用
+for-each for-each循环：避免数组越界，提倡使用
 for vs for-each
-for-each 从JDK5.0开始引入
-for-each 语法更简洁
-for-each 避免越界错误
-for 可以删除元素，for-each不可以删除/替换元素
-for-each遍历的时候，是不知道当前元素的具体位置索引
-for-each只能正向遍历，不能反向遍历
-for-each不能同时遍历2个集合
-for和for-each性能接近
-枚举：限定取值集合，减少实例对象，提倡使用
+for-each 从JDK5.0开始引入 for-each 语法更简洁 for-each 避免越界错误 for 可以删除元素，for-each不可以删除/替换元素 for-each遍历的时候，是不知道当前元素的具体位置索引 for-each只能正向遍历，不能反向遍历 for-each不能同时遍历2个集合 for和for-each性能接近 enum 枚举 枚举：限定取值集合，减少实例对象，提倡使用
+Java的enum类型
+所有的enum类型都是Enum的子类，也继承了相应方法
+ordinal()返回枚举值所在的索引位置, 从0开始
+compareTo()比较两个枚举值的索引位置大小
+toString()返回枚举值的字符串表示
+valueOf()将字符串初始化为枚举对象
+values()返回所有的枚举值
 不定项参数：注重方法重载的优先级，建议少用
-静态导入：有大量静态方法调用时使用，注意“*”不滥用
-import static
-导入一个类的静态方法和静态变量
-少使用* 符号
-自动拆箱和装箱(auto-boxing/auto-unboxing) 装箱和拆箱是编译器的工作，虚拟机没有自动装箱和拆箱的语句
+enum Fruit { Apple(10), Orange(8); private int price; Fruit(int price){ this.price = price; } public int getPrice() { return this....</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 05: Syntax sugar1" href=https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/></a></article><article class=post-entry><header class=entry-header><h2>Java Note 06: Syntax sugar2</h2></header><section class=entry-content><p>自动拆箱和装箱(auto-boxing/auto-unboxing) 装箱和拆箱是编译器的工作，虚拟机没有自动装箱和拆箱的语句
 bimian
 不同类型不能比较
 多异常并列：不建议使用，针对每一类异常单独处理
@@ -40,7 +35,7 @@ c++有auto
 推断之后不能更改
 switch
 多分支选择语句 JDK12支持
-Project 与 Module的区别</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to " href=https://zengxingchen.github.io/posts/java-note/untitled/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://zengxingchen.github.io/posts/>« Prev Page</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://zengxingchen.github.io/>Lewy Zeng</a></span>
+Project 与 Module的区别</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 06: Syntax sugar2" href=https://zengxingchen.github.io/posts/java-note/java-note-06-syntax-sugar2/></a></article><article class=post-entry><header class=entry-header><h2>Java Note 07: Generic programming</h2></header><section class=entry-content><p></p></section><footer class=entry-footer>0 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 07: Generic programming" href=https://zengxingchen.github.io/posts/java-note/java-note-07generic-progarmming/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://zengxingchen.github.io/posts/>« Prev Page</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://zengxingchen.github.io/>Lewy Zeng</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
