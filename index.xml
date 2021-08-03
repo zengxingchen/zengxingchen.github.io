@@ -67,6 +67,16 @@ IDEA是一款非常好用的用于java项目开发的IDE，初次使用可以参
     </item>
     
     <item>
+      <title>Hugo shortcodes</title>
+      <link>https://zengxingchen.github.io/posts/hugo_shortcodes/</link>
+      <pubDate>Fri, 30 Jul 2021 18:42:20 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/hugo_shortcodes/</guid>
+      <description>YouTube 视频，模板位置 /layouts/shortcodes/youtube.html，内容：
+&amp;lt;div class=&amp;#34;embed video-player&amp;#34;&amp;gt; &amp;lt;iframe class=&amp;#34;youtube-player&amp;#34; type=&amp;#34;text/html&amp;#34; width=&amp;#34;640&amp;#34; height=&amp;#34;385&amp;#34; src=&amp;#34;http://www.youtube.com/embed/{{ index .Params 0 }}&amp;#34; allowfullscreen frameborder=&amp;#34;0&amp;#34;&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; Reference  https://blog.wikty.com/post/hugo-tutorial/hugo_shortcode/   </description>
+    </item>
+    
+    <item>
       <title>Shell tutorial</title>
       <link>https://zengxingchen.github.io/posts/shell-tutorial/</link>
       <pubDate>Fri, 30 Jul 2021 18:42:20 +0800</pubDate>
@@ -124,6 +134,26 @@ How to use LaTex in html?</description>
       
       <guid>https://zengxingchen.github.io/links/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Java Note 03: Unit test and JUnit</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</guid>
+      <description>分布式调用的概念
+RMI Remote Method Invocation
+每一个main函数都是有独立的进程启动的
+Serializable
+Comprable
+Java 调用Web Service 调用wimspor
+Web service相当于是远程的一个函数
+提供
+Java调用命令行 取得返回结果
+很多程序没有源码，但是可以执行
+Java提供Runtime类
+wait</description>
     </item>
     
     <item>

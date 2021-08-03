@@ -67,6 +67,26 @@ IDEA是一款非常好用的用于java项目开发的IDE，初次使用可以参
     </item>
     
     <item>
+      <title>Java Note 03: Unit test and JUnit</title>
+      <link>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</guid>
+      <description>分布式调用的概念
+RMI Remote Method Invocation
+每一个main函数都是有独立的进程启动的
+Serializable
+Comprable
+Java 调用Web Service 调用wimspor
+Web service相当于是远程的一个函数
+提供
+Java调用命令行 取得返回结果
+很多程序没有源码，但是可以执行
+Java提供Runtime类
+wait</description>
+    </item>
+    
+    <item>
       <title>Java Note 05: Syntax sugar1</title>
       <link>https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

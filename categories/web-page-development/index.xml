@@ -5,7 +5,17 @@
     <link>https://zengxingchen.github.io/categories/web-page-development/</link>
     <description>Recent content in Web page development on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Jul 2021 22:50:46 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/web-page-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jul 2021 18:42:20 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/web-page-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo shortcodes</title>
+      <link>https://zengxingchen.github.io/posts/hugo_shortcodes/</link>
+      <pubDate>Fri, 30 Jul 2021 18:42:20 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/hugo_shortcodes/</guid>
+      <description>YouTube 视频，模板位置 /layouts/shortcodes/youtube.html，内容：
+&amp;lt;div class=&amp;#34;embed video-player&amp;#34;&amp;gt; &amp;lt;iframe class=&amp;#34;youtube-player&amp;#34; type=&amp;#34;text/html&amp;#34; width=&amp;#34;640&amp;#34; height=&amp;#34;385&amp;#34; src=&amp;#34;http://www.youtube.com/embed/{{ index .Params 0 }}&amp;#34; allowfullscreen frameborder=&amp;#34;0&amp;#34;&amp;gt; &amp;lt;/iframe&amp;gt; &amp;lt;/div&amp;gt; Reference  https://blog.wikty.com/post/hugo-tutorial/hugo_shortcode/   </description>
+    </item>
+    
     <item>
       <title>Guide for buliding your personal website</title>
       <link>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</link>
