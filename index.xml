@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 01 Aug 2021 18:29:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java Note 01: Unit test and JUnit</title>
+      <title>Java Note 02: Advanced file processing</title>
       <link>https://zengxingchen.github.io/posts/java-note/java-note-02-advanced-file-processing/</link>
       <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
       
@@ -137,7 +137,7 @@ How to use LaTex in html?</description>
     </item>
     
     <item>
-      <title>Java Note 03: Unit test and JUnit</title>
+      <title>Java Note 03: Mixing programming</title>
       <link>https://zengxingchen.github.io/posts/java-note/java-note-03-mixing-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -212,7 +212,7 @@ Project 与 Module的区别</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zengxingchen.github.io/posts/java-note/java-note-07generic-progarmming/</guid>
-      <description></description>
+      <description>/Users/zengxingchen/.ssh/id_rsa</description>
     </item>
     
     
