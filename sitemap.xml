@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zengxingchen.github.io/categories/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/linux/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/linux-os/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/linux-os/linux-os-startup/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/os-startup/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/linux-command/</loc>
+    <lastmod>2021-08-04T11:25:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/linux-os/linux-command/</loc>
+    <lastmod>2021-08-04T11:25:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/ssh/</loc>
+    <lastmod>2021-08-04T11:25:40+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/file-processing/</loc>
     <lastmod>2021-08-01T18:29:30+08:00</lastmod>
@@ -15,15 +45,6 @@
     <lastmod>2021-08-01T18:29:30+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/posts/java-note/java-note-02-advanced-file-processing/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/posts/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/tags/</loc>
     <lastmod>2021-08-01T18:29:30+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/xml/</loc>
@@ -41,13 +62,10 @@
     <loc>https://zengxingchen.github.io/tags/maven/</loc>
     <lastmod>2021-07-31T22:12:30+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/categories/linux/</loc>
-    <lastmod>2021-07-30T18:42:20+08:00</lastmod>
-  </url><url>
     <loc>https://zengxingchen.github.io/tags/shell/</loc>
     <lastmod>2021-07-30T18:42:20+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/posts/shell-tutorial/</loc>
+    <loc>https://zengxingchen.github.io/posts/linux-os/shell-tutorial/</loc>
     <lastmod>2021-07-30T18:42:20+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/categories/developer-tools/</loc>
