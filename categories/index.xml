@@ -5,7 +5,25 @@
     <link>https://zengxingchen.github.io/categories/</link>
     <description>Recent content in Categories on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 04 Aug 2021 11:41:40 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Sep 2021 16:25:51 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science</title>
+      <link>https://zengxingchen.github.io/categories/data-science/</link>
+      <pubDate>Thu, 30 Sep 2021 16:25:51 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://zengxingchen.github.io/categories/machine-learning/</link>
+      <pubDate>Thu, 30 Sep 2021 16:25:51 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Linux</title>
       <link>https://zengxingchen.github.io/categories/linux/</link>
@@ -25,29 +43,11 @@
     </item>
     
     <item>
-      <title>Data Science</title>
-      <link>https://zengxingchen.github.io/categories/data-science/</link>
-      <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
-      
-      <guid>https://zengxingchen.github.io/categories/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Developer Tools</title>
       <link>https://zengxingchen.github.io/categories/developer-tools/</link>
       <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/categories/developer-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://zengxingchen.github.io/categories/machine-learning/</link>
-      <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
-      
-      <guid>https://zengxingchen.github.io/categories/machine-learning/</guid>
       <description></description>
     </item>
     
