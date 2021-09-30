@@ -2,16 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zengxingchen.github.io/</loc>
-    <lastmod>2021-08-26T17:00:41+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/posts/</loc>
-    <lastmod>2021-08-26T17:00:41+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/posts/promote/</loc>
-    <lastmod>2021-08-26T17:00:41+08:00</lastmod>
-  </url><url>
     <loc>https://zengxingchen.github.io/categories/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/</loc>
     <lastmod>2021-08-04T11:41:40+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/categories/linux/</loc>
@@ -24,6 +18,9 @@
     <lastmod>2021-08-04T11:41:40+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/os-startup/</loc>
+    <lastmod>2021-08-04T11:41:40+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/</loc>
     <lastmod>2021-08-04T11:41:40+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/</loc>
@@ -71,6 +68,12 @@
     <loc>https://zengxingchen.github.io/posts/linux-os/shell-tutorial/</loc>
     <lastmod>2021-07-30T18:42:20+08:00</lastmod>
   </url><url>
+    <loc>https://zengxingchen.github.io/categories/data-science/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/decomposition/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
     <loc>https://zengxingchen.github.io/categories/developer-tools/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
@@ -78,6 +81,12 @@
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/posts/git_tutorial/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/machine-learning/</loc>
+    <lastmod>2021-07-29T13:29:51+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/pca/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/machine-learning/</loc>
