@@ -8,10 +8,10 @@
     <lastBuildDate>Tue, 27 Jul 2021 22:50:46 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guide for buliding your personal website</title>
-      <link>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</link>
+      <link>https://zengxingchen.github.io/posts/website-development/how_to_bulid_your_personal_blog/</link>
       <pubDate>Tue, 27 Jul 2021 22:50:46 +0800</pubDate>
       
-      <guid>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</guid>
+      <guid>https://zengxingchen.github.io/posts/website-development/how_to_bulid_your_personal_blog/</guid>
       <description>You can just follow the official document of Hugo to build your website.
 If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.
 I believe that the above can help you finish the main procedure, while the following are some of my experiences.

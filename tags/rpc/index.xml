@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RPC on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/rpc/</link>
+    <description>Recent content in RPC on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 Nov 2021 20:05:49 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/rpc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C10K</title>
+      <link>https://zengxingchen.github.io/posts/distributed-system/c10k/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/distributed-system/c10k/</guid>
+      <description>给出不同策略实现分布式系统中多点同时在线连接。 @author: 大数据1902 8305190710 曾星辰
+1.检索关键词时看到的一些相关新闻：  在很早以前，“Labo Lado儿童艺术创想”团队就做过一款涂鸦游戏的应用，该应用可以让孩子和父母在一个平板或手机上将屏幕一分为二进行涂鸦比赛。这种方式虽然有趣，但是对于绘画而言，屏幕尺寸限制了用户的发挥和操作。
+因此，团队希望借助多个设备实现该类玩法，但在研究了ZeroConf、iOS的Multipeer Connectivity、Google Nearby等近距离互联的技术后,皆得不到理想方案。于是他们将目光投到HarmonyOS上。
+他们发现，HarmonyOS的分布式技术能让设备的发现和应用拉起变的非常简单自然，互联的过程也很流畅，很好地解决了单机操作的限制，非常容易地实现跨设备联机功能。
+此外，相较于以往繁琐的开发步骤， HarmonyOS 仅需几个配置、几行代码即可完成应用开发，无需花费太多精力，这让开发团队倍感惊喜。
+ 其中，与思考题（分布式系统中多点同时在线连接）相关的是应用通讯部分：
+应用通讯
+在应用中启动一个PA（process area)，专门用作通讯的服务器端。当设备B的应用被拉起之后，设备A就会通过connectAbility与设备B的PA进行连接，通讯采用RPC方式实现，并使用IDL定义通讯接口。
+RPC的通讯方式使用简单，但是只能支持单向通讯。为了实现双向通讯，可在设备A与设备B发起建立连接成功之后，再让设备B与设备A发起建立一个连接，用两个连接实现了双向通讯。下面是这两个连接建立过程的示意时序图：
+
+RPC主要解决的两个问题：
+ 解决分布式系统中，服务之间的调用问题。 远程调用时，要能够像本地调用一样方便，让调用者感知不到远程调用的逻辑。  总的来说，这个案例里的分布式连接主要运用的是RPC与IDL
+ 相关概念1：
+接口描述语言（Interface description language，缩写IDL），是用来描述软件组件接口的一种计算机语言。IDL通过一种中立的方式来描述接口，使得在不同平台上运行的对象和用不同语言编写的程序可以相互通信交流；比如，一个组件用C++写成，另一个组件用Java写成。
+IDL通常用于远程调用软件。在这种情况下，一般是由远程客户终端调用不同操作系统上的对象组件，并且这些对象组件可能是由不同计算机语言编写的。IDL创建起了两个不同操作系统间通信的桥梁。
+相关概念2： RPC（Remote Procedure Call）相关 在分布式计算，远程过程调用（英语：Remote Procedure Call，缩写为 RPC）是一个计算机通信协议。该协议允许运行于一台计算机的程序调用另一个地址空间（通常为一个开放网络的一台计算机）的子程序，而程序员就像调用本地程序一样，无需额外地为这个交互作用编程（无需关注细节）。RPC是一种服务器-客户端（Client/Server）模式，经典实现是一个通过发送请求-接受回应进行信息交互的系统。
+如果涉及的软件采用面向对象编程，那么远程过程调用亦可称作远程调用或远程方法调用，例：Java RMI。
+RPC是一种进程间通信的模式，程序分布在不同的地址空间里。如果在同一主机里，RPC可以通过不同的虚拟地址空间（即便使用相同的物理地址）进行通讯，而在不同的主机间，则通过不同的物理地址进行交互。许多技术（通常是不兼容）都是基于这种概念而实现的。
+ 2. 回到分布式多点连接这个问题本身 在Medium论坛程序员怎么会不知道 C10K 问题呢？中发现有博主称之为C10K 问题：
+C10K问题定义：  C10K 就是 Client 10000 问题，即「在同时连接到服务器的客户端数量超过 10000 个的环境中，即便硬件性能足够， 依然无法正常提供服务」，简而言之，就是单机1万个并发连接问题。这个概念最早由 Dan Kegel 提出并发布于其个人站点（ http://www.kegel.com/c10k.html ）。
+ Wikipedia定义：  The C10k problem is the problem of optimizing network sockets to handle a large number of clients at the same time.</description>
+    </item>
+    
+  </channel>
+</rss>

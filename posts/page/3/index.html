@@ -1,37 +1,36 @@
 <!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Posts | Lewy Zeng</title><meta name=keywords content><meta name=description content><meta name=author content="Zeng Xingchen"><link rel=canonical href=https://zengxingchen.github.io/posts/><link crossorigin=anonymous href=/assets/css/stylesheet.min.fe63ae84f306727c713665eb03a6c71ec6c611434c8182ba17ba7e7d26a979e9.css integrity="sha256-/mOuhPMGcnxxNmXrA6bHHsbGEUNMgYK6F7p+fSapeek=" rel="preload stylesheet" as=style><link rel=preload href=/images/WechatIMG39.jpeg as=image><link rel=icon href=https://zengxingchen.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://zengxingchen.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://zengxingchen.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://zengxingchen.github.io/apple-touch-icon.png><link rel=mask-icon href=https://zengxingchen.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.82.1"><link rel=alternate type=application/rss+xml href=https://zengxingchen.github.io/posts/index.xml><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-123-45','auto'),ga('send','pageview'))</script><meta property="og:title" content="Posts"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://zengxingchen.github.io/posts/"><meta property="og:site_name" content="Lewy Zeng's blog"><meta name=twitter:card content="summary"><meta name=twitter:title content="Posts"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://zengxingchen.github.io/posts/"}]}</script></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script><noscript><style type=text/css>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://zengxingchen.github.io/ accesskey=h title="Home (Alt + H)">Home</a>
-<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://zengxingchen.github.io/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://zengxingchen.github.io/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://zengxingchen.github.io/>Home</a></div><h1>Posts</h1></header><article class=post-entry><header class=entry-header><h2>Java Note 05: Syntax sugar1</h2></header><section class=entry-content><p>Syntax sugar
-Syntactic sugar / Syntax sugar
-向后兼容
-本文主要介绍for-each循环, enum枚举, 不定项参数
-for-each for-each循环：避免数组越界，提倡使用
-for vs for-each
-for-each 从JDK5.0开始引入 for-each 语法更简洁 for-each 避免越界错误 for 可以删除元素，for-each不可以删除/替换元素 for-each遍历的时候，是不知道当前元素的具体位置索引 for-each只能正向遍历，不能反向遍历 for-each不能同时遍历2个集合 for和for-each性能接近 enum 枚举 枚举：限定取值集合，减少实例对象，提倡使用
-Java的enum类型
-所有的enum类型都是Enum的子类，也继承了相应方法
-ordinal()返回枚举值所在的索引位置, 从0开始
-compareTo()比较两个枚举值的索引位置大小
-toString()返回枚举值的字符串表示
-valueOf()将字符串初始化为枚举对象
-values()返回所有的枚举值
-不定项参数：注重方法重载的优先级，建议少用
-enum Fruit { Apple(10), Orange(8); private int price; Fruit(int price){ this.price = price; } public int getPrice() { return this....</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 05: Syntax sugar1" href=https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/></a></article><article class=post-entry><header class=entry-header><h2>Java Note 06: Syntax sugar2</h2></header><section class=entry-content><p>自动拆箱和装箱(auto-boxing/auto-unboxing) 装箱和拆箱是编译器的工作，虚拟机没有自动装箱和拆箱的语句
-bimian
-不同类型不能比较
-多异常并列：不建议使用，针对每一类异常单独处理
-多个异常之间不能有（直接/间接）继承关系，如果有，则报错
-多个异常
-数值赋值的优化
-增加数字的可读性和纠错功能
-接口的默认方法 java最初的设计中，接口的方法都是没有实现的，公开的。
-try-with-resource try { } AutoCloseable接口，即实现close方法
-ResourceBundle文件加载优化 默认以UTF-8加载
-弱类型语言 javascript
-java10推出 var：局部变量推断
-c++有auto
-推断之后不能更改
-switch
-多分支选择语句 JDK12支持
-Project 与 Module的区别</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 06: Syntax sugar2" href=https://zengxingchen.github.io/posts/java-note/java-note-06-syntax-sugar2/></a></article><article class=post-entry><header class=entry-header><h2>Java Note 07: Generic programming</h2></header><section class=entry-content><p>/Users/zengxingchen/.ssh/id_rsa</p></section><footer class=entry-footer>1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 07: Generic programming" href=https://zengxingchen.github.io/posts/java-note/java-note-07generic-progarmming/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://zengxingchen.github.io/posts/page/2/>« Prev Page</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://zengxingchen.github.io/>Lewy Zeng</a></span>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://zengxingchen.github.io/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://zengxingchen.github.io/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://zengxingchen.github.io/>Home</a></div><h1>Posts</h1></header><article class=post-entry><header class=entry-header><h2>Java Note 00: Maven intro</h2></header><section class=entry-content><p>我主要参考的后端相关学习资料以中文为主，学习过程中遇到的难以转换为中文的专业词汇也相对较少，因为后端系列均以中文写作。
+碎碎念 这是暑假后端学习的开端，很难说清为什么要深入java的学习，兴趣使然？还是希望提升自己的工程能力吧。假期里我开始搭建博客，将一些已经学习过的知识重新整理，也愈发明白自己所欠缺的技能点。
+其实，我已经养成了许多开发的好习惯：阅读官方的英文文档，面向Google编程……
+总而言之：我希望自己能在看到许多简单需求时，自己能有实现的把握，或者是能通过检索相关资料，从而判断一个需求实现的难度与耗时。这对我的学习有着强大的正反馈促进作用。
+写在前面： 我主要开发用到的IDE和编辑器分别是IntelliJ IDEA以及Visual Studio Code。
+IDEA是一款非常好用的用于java项目开发的IDE，初次使用可以参考这篇博客：带你玩转IntelliJ IDEA 使用教程(2019图文版)。
+正在学习的Mooc资源：华东师范大学：Java核心技术(进阶)，这一系列分为基础，进阶，高阶三部分。课程质量非常高，知识点深入，多实例演示。
+正文 Maven简介 老规矩，先快速浏览官方文档，有一个大致的了解。
+Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project’s build, reporting and documentation from a central piece of information.
+Maven开发流程
+新建Maven项目
+在中央仓库(也有一些第三方仓库)查找第三方jar的依赖文本
+拷贝依赖文本至项目的pom.xml
+执行maven build，编译/构建整个项目...</p></section><footer class=entry-footer>July 31, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Java Note 00: Maven intro" href=https://zengxingchen.github.io/posts/java-note/java-note-00-maven-intro/></a></article><article class=post-entry><header class=entry-header><h2>Shell tutorial</h2></header><section class=entry-content><p>Reference:
+菜鸟教程 www.runoob.com
+课件
+@整理 曾星辰
+前言 沈老师的课件代码多有纰漏，结构不太清晰。菜鸟教程中的这一部分相当精炼，我删去了沈老师没有教过的内容，稍作整理得出。
+课件勘误 data两边应该是 ```，而非单引号
+理解export的用法即可 理解 export 的用法即可 运行 Shell 脚本的两种方法 #!/bin/bash echo "Hello World !" 1、作为可执行程序
+将上面的代码保存为 test.sh，并 cd 到相应目录：
+chmod +x ./test.sh #使脚本具有执行权限 ./test.sh #执行脚本 注意，一定要写成 ./test.sh，而不是 test.sh，运行其它二进制的程序也一样，直接写 test.sh，linux 系统会去 PATH 里寻找有没有叫 test.sh 的，而只有 /bin, /sbin, /usr/bin，/usr/sbin 等在 PATH 里，你的当前目录通常不在 PATH 里，所以写成 test.sh 是会找不到命令的，要用 ./test.sh 告诉系统说，就在当前目录找。
+2、作为解释器参数
+这种运行方式是，直接运行解释器，其参数就是 shell 脚本的文件名，如：...</p></section><footer class=entry-footer>July 30, 2021&nbsp;·&nbsp;10 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Shell tutorial" href=https://zengxingchen.github.io/posts/linux-os/shell-tutorial/></a></article><article class=post-entry><header class=entry-header><h2>Git tutorial(to be continued)</h2></header><section class=entry-content><p>Intro Follow this guide, you will learn the common usage of Git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documentation of Git. Quick start 配置github 配置git 使用git - hjj的文章 - 知乎
+Git Basics Git is a fast and modern implementation of version control
+在默认情况下，origin指向的就是你本地的代码库托管在Github上的版本
+Common commands git init directory_name # create and turn the directory into a warehouse that git can manage git add &lt;file>....</p></section><footer class=entry-footer>July 29, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Git tutorial(to be continued)" href=https://zengxingchen.github.io/posts/git/git_tutorial/></a></article><article class=post-entry><header class=entry-header><h2>Machine Learning Note 00</h2></header><section class=entry-content><p>I’m going to share my ML Notes here.
+print('test') you can copy the code block by click the button `copy`</p></section><footer class=entry-footer>July 28, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Machine Learning Note 00" href=https://zengxingchen.github.io/posts/machine-learning-note/ml00/></a></article><article class=post-entry><header class=entry-header><h2>Guide for buliding your personal website</h2></header><section class=entry-content><p>You can just follow the official document of Hugo to build your website.
+If you are going to use GitHub Pages to deploy your website, you can just refer to this blog, and search the keywords of troubles you met in the official document of Hugo.
+I believe that the above can help you finish the main procedure, while the following are some of my experiences.
+How to use LaTex in html?...</p></section><footer class=entry-footer>July 27, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Zeng Xingchen</footer><a class=entry-link aria-label="post link to Guide for buliding your personal website" href=https://zengxingchen.github.io/posts/website-development/how_to_bulid_your_personal_blog/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://zengxingchen.github.io/posts/page/2/>« Prev Page</a>
+<a class=next href=https://zengxingchen.github.io/posts/page/4/>Next Page »</a></nav></footer></main><footer class=footer><span>&copy; 2021 <a href=https://zengxingchen.github.io/>Lewy Zeng</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>

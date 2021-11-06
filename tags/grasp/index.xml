@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GRASP on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/grasp/</link>
+    <description>Recent content in GRASP on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 Nov 2021 20:05:49 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/grasp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRASP设计模式</title>
+      <link>https://zengxingchen.github.io/posts/software-engineering/grasp/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/software-engineering/grasp/</guid>
+      <description>GRASP定义(Wikipedia) GRASP是通用职责分配软件模式（General Responsibility Assignment Software Patterns）的简称，是面向对象设计和职责分配中的九个基本原则，最早是在克雷·拉蒙1997年的Applying UML and Patterns书中提到。
+GRASP中提到的模式和原则包括有控制器（controller）、创建者（creator）、中介（indirection）、信息专家（information expert）、低耦合性（low coupling）、高内聚性（high cohesion）、多态（polymorphism）、保护变化（protected variations）和纯虚构（pure Fabrication）。这些模式都是针对软件开发上的一些问题进行解决。发明这些技巧不是为了要创造新的工作方式，而是为在面向对象设计上，旧的，经过测试的程序设计方式创建文档并且标准化。
+克雷·拉蒙提到：“软件开发最关键的设计工具不是UML或其他的技术，是明了设计原则的心智。”。因此，GRASP原则是心理层面的工具集，在面向对象软件设计学习上的辅助工具。
+回顾设计模式的概念(Wikipedia) 在面向对象设计中，设计模式是针对问题以及其解决方案一个有命名的描述方式，可以应用在不同的情境中。理想的设计模式可以让程序开发者知道要如何将解决方案应用在不同的环境下，并且进行取舍。在一些特定类型的问题中，许多模式会提供对象职责分配的指南。
+GRASP模式详解（来源知乎） 1. 信息专家（Information Expert） 1.1 概念 信息专家（也称专家或专家原则）是一个用于确定将职责委托给谁的原则。
+分配职责的一般方法是查看给定的职责所需信息存储在哪里。
+把职责分配给具有履行该职责所需信息最多的类。
+ Information expert is a principle used to determine where to delegate responsibilities such as methods, computed fields, and so on. Using the principle of information expert, a general approach to assigning responsibilities is to look at a given responsibility, determine the information needed to fulfill it, and then determine where that information is stored.</description>
+    </item>
+    
+  </channel>
+</rss>

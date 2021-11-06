@@ -3,7 +3,64 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zengxingchen.github.io/categories/</loc>
-    <lastmod>2021-09-30T16:25:51+08:00</lastmod>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/java/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/java-note/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/java-note/java-note-%E5%8F%8D%E5%B0%84%E6%9C%BA%E5%88%B6%E4%B8%8E%E5%86%85%E7%9C%81%E6%9C%BA%E5%88%B6/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/reflection/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/</loc>
+    <lastmod>2021-11-06T20:12:30+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/c10k/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/distributed-system/c10k/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/design-pattern/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/distributed-system/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/grasp/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/software-engineering/grasp/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/mvc/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/mvp/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/mvvm/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/tags/rpc/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/categories/software-engineering/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/software-engineering/mvc_mvp_mvvm/</loc>
+    <lastmod>2021-11-06T20:05:49+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/categories/data-science/</loc>
     <lastmod>2021-09-30T16:25:51+08:00</lastmod>
@@ -11,20 +68,17 @@
     <loc>https://zengxingchen.github.io/tags/decomposition/</loc>
     <lastmod>2021-09-30T16:25:51+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/</loc>
-    <lastmod>2021-09-30T16:25:51+08:00</lastmod>
-  </url><url>
     <loc>https://zengxingchen.github.io/categories/machine-learning/</loc>
     <lastmod>2021-09-30T16:25:51+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/posts/pca/</loc>
+    <loc>https://zengxingchen.github.io/posts/dimension-reduction/pca/</loc>
     <lastmod>2021-09-30T16:25:51+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/posts/</loc>
-    <lastmod>2021-09-30T16:25:51+08:00</lastmod>
+    <loc>https://zengxingchen.github.io/tags/time-series/</loc>
+    <lastmod>2021-08-13T21:39:33+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/tags/</loc>
-    <lastmod>2021-09-30T16:25:51+08:00</lastmod>
+    <loc>https://zengxingchen.github.io/posts/ds-competition/time-series/</loc>
+    <lastmod>2021-08-13T21:39:33+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/categories/linux/</loc>
     <lastmod>2021-08-04T11:41:40+08:00</lastmod>
@@ -48,12 +102,6 @@
     <lastmod>2021-08-04T11:25:40+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/file-processing/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/tags/java/</loc>
-    <lastmod>2021-08-01T18:29:30+08:00</lastmod>
-  </url><url>
-    <loc>https://zengxingchen.github.io/categories/java-note/</loc>
     <lastmod>2021-08-01T18:29:30+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/posts/java-note/java-note-02-advanced-file-processing/</loc>
@@ -86,7 +134,7 @@
     <loc>https://zengxingchen.github.io/tags/git/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/posts/git_tutorial/</loc>
+    <loc>https://zengxingchen.github.io/posts/git/git_tutorial/</loc>
     <lastmod>2021-07-29T13:29:51+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/machine-learning/</loc>
@@ -98,7 +146,7 @@
     <loc>https://zengxingchen.github.io/posts/machine-learning-note/ml00/</loc>
     <lastmod>2021-07-28T23:05:30+08:00</lastmod>
   </url><url>
-    <loc>https://zengxingchen.github.io/posts/how_to_bulid_your_personal_blog/</loc>
+    <loc>https://zengxingchen.github.io/posts/website-development/how_to_bulid_your_personal_blog/</loc>
     <lastmod>2021-07-27T22:50:46+08:00</lastmod>
   </url><url>
     <loc>https://zengxingchen.github.io/tags/hugo/</loc>
@@ -109,6 +157,10 @@
   </url><url>
     <loc>https://zengxingchen.github.io/links/</loc>
     <lastmod>2021-07-26T11:02:04+08:00</lastmod>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/dimension-reduction/kernelpca/</loc>
+  </url><url>
+    <loc>https://zengxingchen.github.io/posts/dimension-reduction/lda/</loc>
   </url><url>
     <loc>https://zengxingchen.github.io/posts/java-note/java-note-05-syntax-sugar1/</loc>
   </url><url>

@@ -8,10 +8,10 @@
     <lastBuildDate>Thu, 29 Jul 2021 13:29:51 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/developer-tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git tutorial(to be continued)</title>
-      <link>https://zengxingchen.github.io/posts/git_tutorial/</link>
+      <link>https://zengxingchen.github.io/posts/git/git_tutorial/</link>
       <pubDate>Thu, 29 Jul 2021 13:29:51 +0800</pubDate>
       
-      <guid>https://zengxingchen.github.io/posts/git_tutorial/</guid>
+      <guid>https://zengxingchen.github.io/posts/git/git_tutorial/</guid>
       <description>Intro  Follow this guide, you will learn the common usage of Git. Regardless of learning any tool or module, reading official documents is a very efficient habit. Most of the content in this article is summarized from official documentation of Git.  Quick start 配置github 配置git 使用git - hjj的文章 - 知乎
 Git Basics  Git is a fast and modern implementation of version control
  在默认情况下，origin指向的就是你本地的代码库托管在Github上的版本

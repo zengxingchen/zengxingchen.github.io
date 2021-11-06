@@ -5,13 +5,103 @@
     <link>https://zengxingchen.github.io/tags/</link>
     <description>Recent content in Tags on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Sep 2021 16:25:51 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Nov 2021 20:12:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://zengxingchen.github.io/tags/java/</link>
+      <pubDate>Sat, 06 Nov 2021 20:12:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reflection</title>
+      <link>https://zengxingchen.github.io/tags/reflection/</link>
+      <pubDate>Sat, 06 Nov 2021 20:12:30 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/reflection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C10K</title>
+      <link>https://zengxingchen.github.io/tags/c10k/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/c10k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Pattern</title>
+      <link>https://zengxingchen.github.io/tags/design-pattern/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GRASP</title>
+      <link>https://zengxingchen.github.io/tags/grasp/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/grasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVC</title>
+      <link>https://zengxingchen.github.io/tags/mvc/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/mvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVP</title>
+      <link>https://zengxingchen.github.io/tags/mvp/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/mvp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVVM</title>
+      <link>https://zengxingchen.github.io/tags/mvvm/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/mvvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RPC</title>
+      <link>https://zengxingchen.github.io/tags/rpc/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/rpc/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Decomposition</title>
       <link>https://zengxingchen.github.io/tags/decomposition/</link>
       <pubDate>Thu, 30 Sep 2021 16:25:51 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/tags/decomposition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://zengxingchen.github.io/tags/time-series/</link>
+      <pubDate>Fri, 13 Aug 2021 21:39:33 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     
@@ -57,15 +147,6 @@
       <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/tags/file-processing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://zengxingchen.github.io/tags/java/</link>
-      <pubDate>Sun, 01 Aug 2021 18:29:30 +0800</pubDate>
-      
-      <guid>https://zengxingchen.github.io/tags/java/</guid>
       <description></description>
     </item>
     

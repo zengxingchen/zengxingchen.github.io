@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time Series on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/time-series/</link>
+    <description>Recent content in Time Series on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 13 Aug 2021 21:39:33 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Time Series 01: Introduction</title>
+      <link>https://zengxingchen.github.io/posts/ds-competition/time-series/</link>
+      <pubDate>Fri, 13 Aug 2021 21:39:33 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/ds-competition/time-series/</guid>
+      <description>时间序列规则法快速入门：周期因子法
+ 计算周期因子factors 计算base 预测=base*factors  摘要：
+IJCAI-17给的是蚂蚁金服的支付数据，具体来说，给的是店铺（实体店）过去每天的客流量，预测店铺未来14天每天的客流量。由过去外推未来，这是典型的时间序列问题。像支付数据、客流量数据、交通数据等，具有明显的周期性。从预测的角度说，周期性是核心，只要抓住了周期性，任务就完成了一大半。
+shapelet的定义 【1】中的原文：Informally, shapelets are time series subsequences which are in some sense maximally representive a class. 通俗点来说，shapelets是某一类别时间序列中最具有辨识性特征一段或多段。
+作者：TTTRACY 链接：https://zhuanlan.zhihu.com/p/345436045 来源：知乎 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+tslearn的使用 Official Documentation
+经验之谈：
+ tslearn的使用主要是将原始数据转换至其定义的标准时序数据格式，此外API的调用并无特别之处。 DTW并不一定能比欧式距离效果好很多，但是算法开销是巨大的，在大规模数据上计算DTW十分困难  预处理 时间序列数据的平稳性对于我们采用什么样的分析方式、选择什么样的模型有着至关重要的影响。
+我们想一下，假如一个时间序列的波动趋势从来没有稳定过，那么它每个时期的波动对于之后一段时期的影响都是无法预测的，因为它随时可能“变脸”。而当一个时间序列的特征维持稳定，比如它的均值和方差是稳定的，那么我们认为在之后的一段时间里，它的数据分布跟历史的数据分布大概率是保持一致的，这时，我们就可以基于历史数据对未来的走势做一个预测，这能帮助我们找到更大概率成功的决策。
+Reference </description>
+    </item>
+    
+  </channel>
+</rss>

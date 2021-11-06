@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software Engineering on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/categories/software-engineering/</link>
+    <description>Recent content in Software Engineering on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 06 Nov 2021 20:05:49 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRASP设计模式</title>
+      <link>https://zengxingchen.github.io/posts/software-engineering/grasp/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/software-engineering/grasp/</guid>
+      <description>GRASP定义(Wikipedia) GRASP是通用职责分配软件模式（General Responsibility Assignment Software Patterns）的简称，是面向对象设计和职责分配中的九个基本原则，最早是在克雷·拉蒙1997年的Applying UML and Patterns书中提到。
+GRASP中提到的模式和原则包括有控制器（controller）、创建者（creator）、中介（indirection）、信息专家（information expert）、低耦合性（low coupling）、高内聚性（high cohesion）、多态（polymorphism）、保护变化（protected variations）和纯虚构（pure Fabrication）。这些模式都是针对软件开发上的一些问题进行解决。发明这些技巧不是为了要创造新的工作方式，而是为在面向对象设计上，旧的，经过测试的程序设计方式创建文档并且标准化。
+克雷·拉蒙提到：“软件开发最关键的设计工具不是UML或其他的技术，是明了设计原则的心智。”。因此，GRASP原则是心理层面的工具集，在面向对象软件设计学习上的辅助工具。
+回顾设计模式的概念(Wikipedia) 在面向对象设计中，设计模式是针对问题以及其解决方案一个有命名的描述方式，可以应用在不同的情境中。理想的设计模式可以让程序开发者知道要如何将解决方案应用在不同的环境下，并且进行取舍。在一些特定类型的问题中，许多模式会提供对象职责分配的指南。
+GRASP模式详解（来源知乎） 1. 信息专家（Information Expert） 1.1 概念 信息专家（也称专家或专家原则）是一个用于确定将职责委托给谁的原则。
+分配职责的一般方法是查看给定的职责所需信息存储在哪里。
+把职责分配给具有履行该职责所需信息最多的类。
+ Information expert is a principle used to determine where to delegate responsibilities such as methods, computed fields, and so on. Using the principle of information expert, a general approach to assigning responsibilities is to look at a given responsibility, determine the information needed to fulfill it, and then determine where that information is stored.</description>
+    </item>
+    
+    <item>
+      <title>调研学习MVC,MVP和 MVVM</title>
+      <link>https://zengxingchen.github.io/posts/software-engineering/mvc_mvp_mvvm/</link>
+      <pubDate>Sat, 06 Nov 2021 20:05:49 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/software-engineering/mvc_mvp_mvvm/</guid>
+      <description>写在前面 ​ JAVA+网络实训中使用过基于MVC的javafx图形框架，其基于xml将视图分割给UI设计，用@controller在代码中实现控制器与视图的连接。此后在一些科研绘图交互展示中接触到Django，其设计模式是基于MVC改进得到的MVT(Model-View-Template)，其数据与视图的分离给开发带来的很多好处，尤其是当绘图数据是由实验不断更新的到时。
+​ 作业主要参考了Wikipedia的各词条介绍，以及一些中文论坛中的技术博客，具体链接在文章结束处。
+MVC(Model-View-Controller) ​ MVC模式（Model–view–controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。
+​ MVC是比较直观的架构模式，用户进行操作时，View接收用户的输入操作，传递给Controller进行业务逻辑处理，Model实现数据持久化，并将结果反馈给View，完成一次MVC模式。
+​ 目前常见的 iOS 和 Android 开发，SDK 和与其搭配的 IDE 工具都是默认以 MVC 的方式来使用。model是数据模型，View 是视图或者说就是我们的软件界面需要去展示的东西；Controller 是用来控制Model的读取、存储，以及如何在 View上 展示数据，更新数据的逻辑控制器。
+组件的互动  模型（Model） 用于封装与应用程序的业务逻辑相关的数据以及对数据的处理方法。“ Model ”有对数据直接访问的权力，例如对数据库的访问。“Model”不依赖“View”和“Controller”，也就是说， Model 不关心它会被如何显示或是如何被操作。但是 Model 中数据的变化一般会通过一种刷新机制被公布。为了实现这种机制，那些用于监视此 Model 的 View 必须事先在此 Model 上注册，从而，View 可以了解在数据 Model 上发生的改变。（比如：观察者模式） 视图（View）能够实现数据有目的的显示（理论上，这不是必需的）。在 View 中一般没有程序上的逻辑。为了实现 View 上的刷新功能，View 需要访问它监视的数据模型（Model），因此应该事先在被它监视的数据那里注册。 控制器（Controller）起到不同层面间的组织作用，用于控制应用程序的流程。它处理事件并作出响应。“事件”包括用户的行为和数据 Model 上的改变。  实际范例 这里有一个通过JavaScript所实现的基于 MVC 模型，需要注意的是：MVC 不是一种技术，而是一种理念。
+/** 模拟 Model, View, Controller */ var M = {}, V = {}, C = {}; /** Model 负责存放资料 */ M.</description>
+    </item>
+    
+  </channel>
+</rss>
