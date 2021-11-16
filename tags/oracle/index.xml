@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Oracle on Lewy Zeng</title>
+    <link>https://zengxingchen.github.io/tags/oracle/</link>
+    <description>Recent content in Oracle on Lewy Zeng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Nov 2021 15:07:00 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oracle Lab2</title>
+      <link>https://zengxingchen.github.io/posts/database/oracle-labs/oracle-lab2/</link>
+      <pubDate>Thu, 11 Nov 2021 15:07:00 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/database/oracle-labs/oracle-lab2/</guid>
+      <description>Lab  设计与建立上课考勤表Attend_d710，能登记每个学生的考勤记录包括正常、迟到、旷课、请假。能统计以专业为单位的出勤类别并进行打分评价排序，如迟到、旷课、请假分别扣2，5，1分。可以考虑给一初始的分值，以免负值。  每个学生的表，显然一条记录时指一个学生某一天的某一堂课的记录，用（学号+日期+课堂时间）来做主键，对应扣分放另外一张表，稍后对应着循环就好。
+create table T_attend_d710 ( sno varchar2(10), mno varchar2(2), sday date, unit char(2) check(unit in(&amp;#39;12&amp;#39;,&amp;#39;34&amp;#39;,&amp;#39;56&amp;#39;,&amp;#39;78&amp;#39;,&amp;#39;90&amp;#39;)), mstatus nchar(2) check(mstatus in(&amp;#39;正常&amp;#39;,&amp;#39;请假&amp;#39;,&amp;#39;迟到&amp;#39;,&amp;#39;旷课&amp;#39;)), constraint pk_T_attend primary key(sno,sday,unit), constraint fk_T_attend_sno foreign key(sno) references T_stud_d710(sno), constraint fk_T_attend_mno foreign key(mno) references T_major_d710(mno) ); create table T_attendscore_d710 ( mstatus nchar(2) primary key, score int ); insert into T_attendscore_d710 values(&amp;#39;正常&amp;#39;,0); insert into T_attendscore_d710 values(&amp;#39;请假&amp;#39;,1); insert into T_attendscore_d710 values(&amp;#39;迟到&amp;#39;,2); insert into T_attendscore_d710 values(&amp;#39;旷课&amp;#39;,5);  为major表与stud表增加sum_evaluation 数值字段，以记录根据考勤表Attend_d710(Attendance)中出勤类别打分汇总的值。  alter table T_stud_d710 add(sum_evaluation number); alter table T_major_d710 add(sum_evaluation number); 建立个人考勤汇总表stud_attend与专业考勤表major_attend，表示每个学生或每个专业在某时间周期（起始日期，终止日期）正常、迟到、旷课、请假次数及考勤分值。  create table T_stud_attend_d710 ( sno varchar2(10), stime date, etime date, normalcnt int, leavecnt int, latecnt int, absentcnt int, score number, constraint pk_T_stud_attend_time primary key(sno,stime,etime), constraint fk_T_stud_attend_sno foreign key(sno) references T_stud_d710(sno) );create table T_major_attend_d710 ( mno varchar2(2), stime date, etime date, normalcnt int, leavecnt int, latecnt int, absentcnt int, score number, constraint pk_T_major_attend_time primary key(mno,stime,etime), constraint fk_T_major_attend_d710 foreign key(mno) references T_major_d710(mno) ); 4．根据major表中的值与stud中的值，为考勤表Attend输入足够的样本值，要求每个专业都要有学生，有部分学生至少要有一周的每天5个单元（12，34，56，78，90，没有课的单元可以没有考勤记录）的考勤完整记录，其中正常、迟到、旷课、请假 可以用数字或字母符号表示。</description>
+    </item>
+    
+    <item>
+      <title>Oracle Lab1</title>
+      <link>https://zengxingchen.github.io/posts/database/oracle-labs/oracle-lab1/</link>
+      <pubDate>Wed, 10 Nov 2021 22:28:39 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/posts/database/oracle-labs/oracle-lab1/</guid>
+      <description>Previous work 在MacOS环境下配置Oracle并非一件易事，课程学习需要，我查阅博客，利用Docker进行环境配置。 首先在官网选择适合自己电脑环境的Docker版本下载。 浏览了一遍菜鸟教程中的Docker入门，对Docker有一个初步的了解。
+ Docker 允许你在容器内运行应用程序， 使用 docker run 命令来在容器内运行一个应用程序。   $ docker run ubuntu:15.10 /bin/echo &amp;#34;Hello world&amp;#34; 各个参数解析：
+ docker: Docker 的二进制执行文件。 run: 与前面的 docker 组合来运行一个容器。 ubuntu:15.10 指定要运行的镜像，Docker 首先从本地主机上查找镜像是否存在，如果不存在，Docker 就会从镜像仓库 Docker Hub 下载公共镜像。 /bin/echo &amp;quot;Hello world&amp;quot;: 在启动的容器里执行的命令。  我们通过 docker 的两个参数 -i -t，让 docker 运行的容器实现&amp;quot;对话&amp;quot;的能力： shell (base) ➜ ~ docker run -d -p 151:151 --name oracle store/oracle/database-enterprise:12.2.0.1-slim a0bb03a0f3807f2c3c8c10912302d1fab3588c1197748bd28304834926c0d1e5 (base) ➜ ~ docker exec -it oracle bash [oracle@a0bb03a0f380 /]$ 各个参数解析： -t: 在新容器内指定一个伪终端或终端。 -i: 允许你对容器内的标准输入 (STDIN) 进行交互。  注意[oracle@a0bb03a0f380 /]$，此时我们已进入一个 oracle 系统的容器</description>
+    </item>
+    
+  </channel>
+</rss>

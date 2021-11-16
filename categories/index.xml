@@ -5,7 +5,25 @@
     <link>https://zengxingchen.github.io/categories/</link>
     <description>Recent content in Categories on Lewy Zeng</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Nov 2021 20:12:30 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Nov 2021 22:41:25 +0800</lastBuildDate><atom:link href="https://zengxingchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning</title>
+      <link>https://zengxingchen.github.io/categories/machine-learning/</link>
+      <pubDate>Tue, 16 Nov 2021 22:41:25 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>https://zengxingchen.github.io/categories/database/</link>
+      <pubDate>Thu, 11 Nov 2021 15:07:00 +0800</pubDate>
+      
+      <guid>https://zengxingchen.github.io/categories/database/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Java Note</title>
       <link>https://zengxingchen.github.io/categories/java-note/</link>
@@ -39,15 +57,6 @@
       <pubDate>Thu, 30 Sep 2021 16:25:51 +0800</pubDate>
       
       <guid>https://zengxingchen.github.io/categories/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://zengxingchen.github.io/categories/machine-learning/</link>
-      <pubDate>Thu, 30 Sep 2021 16:25:51 +0800</pubDate>
-      
-      <guid>https://zengxingchen.github.io/categories/machine-learning/</guid>
       <description></description>
     </item>
     
