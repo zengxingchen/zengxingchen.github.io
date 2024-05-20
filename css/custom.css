@@ -26,6 +26,23 @@ hr{
 /* Custom styles
 -------------------------------------------------- */
 
+/* 默认样式，适用于较大屏幕 */
+img {
+  width: 100%; /* 或者其他适合大屏幕的尺寸 */
+  height: auto;
+}
+
+/* 媒体查询，针对屏幕宽度小于768px的设备 */
+@media (max-width: 767px) {
+  img {
+      width: 80%; /* 或者根据需要调整为其他百分比 */
+      height: auto;
+      display: block; /* 确保图片居中 */
+      margin: 0 auto; /* 自动边距使图片居中 */
+  }
+}
+
+
 .bg-udc {
   background-color: #6c757d !important;
 }
