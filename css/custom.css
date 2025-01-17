@@ -32,6 +32,12 @@ img {
   height: auto;
 }
 
+@media (max-width: 576px) {
+  #avatar-img {
+    max-width: 50%;
+  }
+}
+
 /* 媒体查询，针对屏幕宽度小于768px的设备 */
 @media (max-width: 767px) {
   img {
