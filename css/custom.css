@@ -35,6 +35,7 @@ img {
 @media (max-width: 576px) {
   #avatar-img {
     max-width: 50%;
+    max-height: 20%;
   }
 }
 
