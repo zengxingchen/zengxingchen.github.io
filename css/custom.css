@@ -103,11 +103,6 @@ h3 {
   overflow: auto;
 }
 
-.avatar-wrapper {
-  float: left;
-  margin: 0 30px 20px 0;
-}
-
 .avatar {
   width: 200px;
   height: auto;
@@ -118,6 +113,20 @@ h3 {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
   background-color: #fafafa;
 }
+.avatar-wrapper {
+  float: none;
+  margin: 0 auto 20px;
+  display: block;
+  text-align: center;
+}
+
+.avatar {
+  width: 230px;
+  height: auto;
+  max-height: 350px;
+  border-radius: 6px;
+}
+
 
 .about-content p {
   margin-bottom: 14px;
@@ -303,19 +312,7 @@ em {
     padding: 0 0 30px;
   }
 
-  .avatar-wrapper {
-    float: none;
-    margin: 0 auto 20px;
-    display: block;
-    text-align: center;
-  }
 
-  .avatar {
-    width: 170px;
-    height: auto;
-    max-height: 240px;
-    border-radius: 6px;
-  }
 
   .section {
     padding: 30px 0;
@@ -362,19 +359,6 @@ em {
     padding: 0 0 25px;
   }
 
-  .avatar-wrapper {
-    float: none;
-    margin: 0 auto 0px;
-    display: block;
-    text-align: center;
-  }
-
-  .avatar {
-    width: 230px;
-    height: auto;
-    max-height: 350px;
-    border-radius: 6px;
-  }
 
   .section {
     padding: 25px 0;
