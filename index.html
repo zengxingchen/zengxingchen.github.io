@@ -13,6 +13,7 @@
   <meta name="keywords" content="Xingchen Zeng, Data Science, Visualization, Large Language Models, HKUST" />
   <meta name="author" content="Xingchen Zeng" />
   <link href="css/custom.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -111,6 +112,15 @@
             <em>IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2024)</em>, 2024.
             <a href="https://arxiv.org/abs/2407.20174" class="paper-link">Paper</a>
             <a href="https://github.com/zengxingchen/ChartQA-MLLM" class="paper-link">Code</a>
+            <a class="abstract-toggle" onclick="toggleAbstract(this)">
+              <span>Abstract</span>
+              <span class="arrow">▼</span>
+            </a>
+            <div class="abstract-content">
+              <div class="abstract-text">
+                Emerging multimodal large language models (MLLMs) exhibit great potential for chart question answering (CQA). Recent efforts primarily focus on scaling up training datasets (i.e., charts, data tables, and question-answer (QA) pairs) through data collection and synthesis. However, our empirical study on existing MLLMs and CQA datasets reveals notable gaps. First, current data collection and synthesis focus on data volume and lack consideration of fine-grained visual encodings and QA tasks, resulting in unbalanced data distribution divergent from practical CQA scenarios. Second, existing work follows the training recipe of the base MLLMs initially designed for natural images, under-exploring the adaptation to unique chart characteristics, such as rich text elements. To fill the gap, we propose a visualization-referenced instruction tuning approach to guide the training dataset enhancement and model development. Specifically, we propose a novel data engine to effectively filter diverse and high-quality data from existing datasets and subsequently refine and augment the data using LLM-based generation techniques to better align with practical QA tasks and visual encodings. Then, to facilitate the adaptation to chart characteristics, we utilize the enriched data to train an MLLM by unfreezing the vision encoder and incorporating a mixture-of-resolution adaptation strategy for enhanced fine-grained recognition. Experimental results validate the effectiveness of our approach. Even with fewer training examples, our model consistently outperforms state-of-the-art CQA models on established benchmarks. We also contribute a dataset split as a benchmark for future research.
+              </div>
+            </div>
           </li>
           <li>
             <strong>Xingchen Zeng</strong>, Ziyao Gao, Yilin Ye, Wei Zeng. 
@@ -132,20 +142,23 @@
             <span class="paper-title">Parametric-Generalized-Kernel Boosted Dimensionality Reduction 
             for Gaussian Kernel Estimation in Projection Space.</span> 
             <em>Proceedings of the Forty-Second International Conference on Machine Learning</em>, 2025. 
-            <a href="https://arxiv.org/pdf/2503.03236" class="paper-link">Paper</a> <a href="https://github.com/yilinye/AKRMap" class="paper-link">Code</a> 
+            <a href="https://arxiv.org/pdf/2503.03236" class="paper-link">Paper</a>
+            <a href="https://github.com/yilinye/AKRMap" class="paper-link">Code</a>
           </li>
           <li>
             Yihan Hou, <strong>Xingchen Zeng</strong>, Yusong Wang, Manling Yang, Xiaojiao Chen, Wei Zeng. 
             <span class="paper-title">GenColor: Generative Color-Concept Association in Visual Design.</span> 
             <em>Proceedings of the CHI Conference on Human Factors in Computing Systems</em>, 2025.
-            <a href="https://arxiv.org/pdf/2503.03236" class="paper-link">Paper</a> <a href="https://github.com/Sunnary2604/GenColor" class="paper-link">Code</a>
+            <a href="https://arxiv.org/pdf/2503.03236" class="paper-link">Paper</a>
+            <a href="https://github.com/Sunnary2604/GenColor" class="paper-link">Code</a>
           </li>
           <li>
             Yilin Ye, Shishi Xiao, <strong>Xingchen Zeng</strong>, Wei Zeng. 
             <span class="paper-title">ModalChorus: Visual Probing and Alignment of Multi-modal 
             Embeddings via Modal Fusion Map.</span> 
             <em>IEEE Transactions on Visualization and Computer Graphics (Proc. IEEE VIS 2024)</em>, 2024.
-            <a href="https://arxiv.org/abs/2407.12315" class="paper-link">Paper</a> <a href="https://github.com/yilinye/Modal-Fusion-Map" class="paper-link">Code</a>
+            <a href="https://arxiv.org/abs/2407.12315" class="paper-link">Paper</a>
+            <a href="https://github.com/yilinye/Modal-Fusion-Map" class="paper-link">Code</a>
           </li>
         </ol>
       </div>
@@ -156,6 +169,19 @@
       <p>© 2025 Xingchen Zeng. Last updated October 2025.</p>
     </footer>
   </div>
+
+  <script>
+    function toggleAbstract(element) {
+      // 切换按钮的expanded类
+      element.classList.toggle('expanded');
+      
+      // 找到对应的abstract内容
+      const abstractContent = element.nextElementSibling;
+      
+      // 切换内容的展开/收起状态
+      abstractContent.classList.toggle('expanded');
+    }
+  </script>
 </body>
 
 </html>
