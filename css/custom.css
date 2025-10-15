@@ -248,6 +248,10 @@ h3 {
   transition: color 0.2s ease;
 }
 
+.common-link {
+  color: #4A90E2;
+}
+
 .paper-link:hover {
   color: #357ABD;
   text-decoration: underline;
@@ -380,7 +384,8 @@ em {
   }
 
   .avatar {
-    width: 180px;
+    width: 230px;
+    max-height: 320px;
   }
 
   .section {
