@@ -69,6 +69,10 @@
           We contribute a robust data-mining framework for quantifying color semantics 
           learned by pretrained image generation models.
         </li> -->
+        <li style="margin-bottom: 5px;">
+          <span class="date">Highlight</span>
+         <a href="https://openreview.net/forum?id=OAXECnLxuk" class="common-link">DaVinci</a> is accepted by ICLR 2026. Code and data will be released ASAP.
+        </li>
         <li>
           <span class="date">Highlight</span>
           Check the <a href="https://github.com/zengxingchen/LLM-Visualization-Paper-List" class="common-link">
@@ -91,11 +95,10 @@
         <h3>Under Review</h3>
         <ol class="paper-list">
           <li>
-            <strong>Xingchen Zeng</strong>, Zhewei Su, Hengming Zhang, Juyong Jiang, Jiazhi Xia, Wei Zeng. 
-            <span class="paper-title">DaVinci: Reinforcing Visual-Structural Syntax in MLLMs for 
-            Generalized Scientific Diagram Parsing.</span> 
+            Zhicong Li, Lingjie Jiang, Yulan Hu, <strong>Xingchen ZENG</strong>, Yixia Li, Xiangwen Zhang, Guanhua Chen, Zheng Pan, Xin Li, Yong Liu. 
+            <span class="paper-title">No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning.</span> 
             Under Review.
-            <a href="https://openreview.net/pdf?id=OAXECnLxuk" class="paper-link">Preprint</a>
+            <a href="https://arxiv.org/pdf/2601.06794" class="paper-link">Preprint</a>
           </li>
           <li>
             <strong>Xingchen Zeng</strong>, Yuanbang Liu, Jianing Hao, Wei Zeng. 
@@ -110,6 +113,22 @@
       <div class="subsection">
         <h3>Published</h3>
         <ol class="paper-list">
+          <li>
+            <strong>Xingchen Zeng</strong>, Zhewei Su, Hengming Zhang, Juyong Jiang, Jiazhi Xia, Wei Zeng. 
+            <span class="paper-title">DaVinci: Reinforcing Visual-Structural Syntax in MLLMs for 
+            Generalized Scientific Diagram Parsing.</span> 
+            <em>The Fourteenth International Conference on Learning Representations</em>, 2026.
+            <a href="https://openreview.net/pdf?id=OAXECnLxuk" class="paper-link">Paper</a>
+            <a class="abstract-toggle" onclick="toggleAbstract(this)">
+              <span>Abstract</span>
+              <span class="arrow">▼</span>
+            </a>
+            <div class="abstract-content">
+              <div class="abstract-text">
+                Parsing raster-based scientific diagrams into structured representations is critical for editability and reusability. However, existing multimodal LLMs (MLLMs) struggle with the diverse visual primitives, complex structural layouts, and strict syntax involved. To address this, we introduce DaVinci, a novel MLLM that learns diagram parsing based on a two-stage framework—supervised learning of visual primitives followed by reinforcement learning of their structural relationships. Our model learns visual-structural syntax through supervised training on TikZ30K, a newly curated dataset of high-quality diagram-TikZ code pairs that features abundant visual primitives and structurally optimized drawing sequences. We further refine the model via reinforcement learning, guided by a hybrid reward function that jointly optimizes for visual fidelity, structural consistency, and code correctness. Extensive experiments show that DaVinci significantly outperforms existing open-source MLLMs and surpasses leading proprietary models like GPT-5 and Claude-Sonnet-4.
+              </div>
+            </div>
+          </li>
           <li>
             <strong>Xingchen Zeng</strong>, Haichuan Lin, Yilin Ye, Wei Zeng. 
             <span class="paper-title">Advancing Multimodal Large Language Models in Chart Question 
